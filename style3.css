@@ -1,0 +1,59 @@
+div img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.mood div {
+    display: inline;
+}
+
+div.container {
+    border: 1px solid;
+    width: 700px;
+    padding: 10px;
+}
+
+div span {
+    color: rgb(234, 38, 17);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: rgba(0, 0, 206, 0.993);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: rgb(74, 96, 192);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30PX;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table {
+    width: 70%;
+}
+
+tr {
+    height: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(160, 215, 238);
+}
+
+td:nth-child(even),
+th:nth-child(even) {
+    background-color: rgb(160, 215, 238);
+}
+
+/* th:nth-child(even) {
+    background-color: rgb(160, 215, 238)e;
+} */
